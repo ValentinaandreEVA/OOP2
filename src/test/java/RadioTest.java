@@ -2,6 +2,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 public class RadioTest {
+
     @Test
     public void shouldSetVolume() {
         Radio radio = new Radio();
@@ -124,7 +125,7 @@ public class RadioTest {
 
     @Test
     public void testNextStation() {
-        Radio radio = new Radio();
+        Radio radio = new Radio(10);
 
 
         int expected = 5;
