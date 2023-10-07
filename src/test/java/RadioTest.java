@@ -8,7 +8,7 @@ public class RadioTest {
 
 
         int expected = 50;
-        radio.setCurrentVolume(50);
+        radio.setCurrentVolume(25);
         int actual = radio.getCurrentVolume();
 
 

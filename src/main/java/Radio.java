@@ -8,6 +8,7 @@ public class Radio {
     }
 
     public void setCurrentVolume(int newCurrentVolume) {
+
         if (newCurrentVolume > 100) {
             currentVolume = 100;
         } else if (newCurrentVolume < 0) {
@@ -33,7 +34,7 @@ public class Radio {
 
     public int getCurrentStation() {
         return currentStation;
-    } // узнать станцию
+    }
 
 
     public void setCurrentStation(int newCurrentStation) {
